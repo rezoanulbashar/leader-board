@@ -1,0 +1,144 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    width: 1200px;
+    max-width: 80%;
+    margin: 0px auto;
+    background-color: #F3F1FF;
+}
+
+.main-part {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.single-team img {
+    height: 120px;
+    margin-right: 20px;
+}
+
+.team-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
+
+.single-team {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    background-color: #7fffd460;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 700;
+    color: dimgrey;
+}
+
+.single-team h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.blog-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+}
+
+.single-blog {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 30px;
+    border-radius: 10px;
+    place-items: center;
+    background-color: #7fffd460;
+}
+
+.thumnail {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.blog-infor h3 {
+    color: #000000;
+    font-size: 25px;
+    font-weight: '500';
+}
+
+.blog-infor p {
+    color: #666666;
+    font-size: 18px;
+}
+
+.blog-infor a {
+    color: #7656FD;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.course-info {
+    display: flex;
+}
+
+.course-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.courses img {
+    width: 350px;
+}
+
+.filled {
+    font-size: 15px;
+    color: #FFC014;
+}
+
+.unfilled {
+    font-size: 15px;
+    color: #EAEAEA;
+}
+
+.courses {
+    background-color: #7fffd460;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.course-details h3 {
+    font-size: 25px;
+    color: #000000;
+    line-height: 35px;
+    font-weight: 600;
+}
+
+.course-details p {
+    color: #ED6B4F;
+    font-size: 18px;
+}
